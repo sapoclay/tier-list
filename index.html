@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="author" content="ENTREUNOSYCEROS" />
+    <meta name="description" content="Crea tu propia Tier List con un poco de html, css y Javascript para utilizar el local o en un servidor"/>
+    <meta name="keywords" content="tier list, Javascript, HTML, CSS, entreunosyceros"/>
+    <title>Tier List</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+  </head>
+  <body>
+    <label class="headerContainer">
+      <h1>Tier List</h1>
+    </label>
+<!--Div anidados para mostrar cada una de las líneas-->
+    <div id="board">
+      <div class="row">
+        <div class="label">A</div>
+      </div>
+      <div class="row">
+        <div class="label">B</div>
+      </div>
+      <div class="row">
+        <div class="label">C</div>
+      </div>
+      <div class="row">
+        <div class="label">D</div>
+      </div>
+      <div class="row">
+        <div class="label">E</div>
+      </div>
+      <div class="row">
+        <div class="label">F</div>
+      </div>
+    </div>
+
+    <!--botón y div para añadir imágenes-->
+    <button id="addCard" title="Añadir imagen">Añadir imagen➕</button>
+    <div id="banco"></div>
+  </body>
+  <!-- JavaScript necesarios-->
+  <script src="./lineas.js"></script>
+  <script src="./imagenes.js"></script>
+  <script src="./banco.js"></script>
+
+  </html>
